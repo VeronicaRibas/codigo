@@ -1,0 +1,44 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-image: url(esr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titulo{
+    color: rgb(249, 254, 254);
+    width: 300px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.formu{
+    border: 3px rgb(235, 209, 209) dotted;
+    color: azure;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 80%;
+    height: 50%;
+    justify-content: space-around;
+}
+
